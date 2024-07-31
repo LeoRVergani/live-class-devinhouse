@@ -13,13 +13,13 @@ body {
 
 .container {
     max-width: 500px;
-    height: 250px;
     background-color: #8f1414;
     padding: 10px;
-    margin: 0 auto;
+    margin: 100px auto;
     color: #ffebeb;
     border-radius: 10px;
     font-size: 18px;
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -28,11 +28,13 @@ h1 {
 
 .titulo {
     font-size: 24px;
+    margin: 20px;
 }
 
 form {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 15px;
     justify-content:center;
 }
@@ -43,6 +45,17 @@ input {
 }
 
 button {
-    padding: 25px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #d70d06;
+    color: #ffebeb;
+}
+
+#resultado {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
