@@ -1,5 +1,6 @@
-#titulo {
- 
+* {
+    font-style: italic;
+    color: rgb(53, 53, 53);
 }
 
 /* <p class="texto-verde"></p> */
@@ -32,4 +33,14 @@
 #enviar-form {
     font-size: 22px;
     border-radius: 12px;   
+}
+
+form input {
+    height: 30px;
+    width: 120px;
+}
+
+form button {
+    width: 120px;
+    height: 30px;
 }

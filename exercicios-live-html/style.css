@@ -1,0 +1,32 @@
+main {
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    background-color: rgb(44, 44, 46);
+    color: rgb(246, 247, 249);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+form {
+    margin: 0 auto;
+    background-color: rgb(105, 122, 122);
+    padding: 20px;
+    width: 200px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
